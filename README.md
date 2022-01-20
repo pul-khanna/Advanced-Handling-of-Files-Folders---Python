@@ -6,3 +6,5 @@ The raw data has to transformed/cleansed into a desired format and then saved in
 This task focuses on handling of folders, their sub-directories and the files within by accessing and modifying raw data to create new files within a new specific folder structure using python. Here we will be making use of 'os' and 'pathlib' modules for handling of folders. Additionally, we will make use of 'pandas', 'numpy' and 'datetime' libraries to perform other tasks in an efficient way.
 
 Look at the 'description.md' file to get detaile descriotion of the task.
+
+Note: In the code, we are using unzipped format to read our files. To retain the data folder structure we have uploaded zipped files on github. We can either unzip them or directly read zipped files in our pythhon notebook and replace the current code as required to do the same.
